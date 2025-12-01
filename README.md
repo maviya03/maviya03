@@ -27,8 +27,8 @@ I build reliable, scalable automation that reduces operational toil and improves
 > These demos represent patterns & automation approaches I apply in real-world infrastructure.  
 > Actual production code is protected under NDA.
 
-### 🔹 openshift-install
-Production Grade OpenShift cluster provisioning (bootstrap, Master Node provisioning, Worker Node Addition, Post-configuration of Openshift).
+### 🔹 [openshift-install](https://github.com/maviya03/openshift-install)
+Production grade OpenShift cluster provisioning (bootstrap, master + worker provisioning, post-config).
 
 ### 🔹 k8s_cluster_by_ansible
 Ansible-driven Kubernetes cluster provisioning (bootstrap, kubeadm init, join nodes, CNI install) + sample app deployment.
