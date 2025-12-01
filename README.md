@@ -24,23 +24,23 @@ I build reliable, scalable automation that reduces operational toil and improves
 ---
 
 ## Pinned Projects (Non-NDA Demo Work)
-> These demos represent patterns & automation approaches I apply in real-world infrastructure.  
-> Actual production code is protected under NDA.
 
-### 🔹 [openshift-install](https://github.com/maviya03/openshift-install)
+> These demos represent patterns & automation approaches I apply in real-world infrastructure. Actual production code is protected under NDA.
+
+### 🔹 [openshift-install](https://github.com/maviya03/openshift-install)  
 Production grade OpenShift cluster provisioning (bootstrap, master + worker provisioning, post-config).
 
-### 🔹 k8s_cluster_by_ansible
-Ansible-driven Kubernetes cluster provisioning (bootstrap, kubeadm init, join nodes, CNI install) + sample app deployment.
+### 🔹 [k8s_cluster_by_ansible](https://github.com/maviya03/k8s_cluster_by_ansible)  
+Kubernetes cluster provisioning via Ansible + demo app. Quickstart: `ansible-playbook playbook.yml && kubectl apply -f deploy-demo.yaml`
 
-### 🔹 ec2_creation_with_webapp
-Ansible playbooks to provision EC2 and deploy a sample webapp (systemd, Nginx/Apache configs).
+### 🔹 [ec2_creation_with_webapp](https://github.com/maviya03/ec2_creation_with_webapp)  
+EC2 provisioning + sample webapp deployment via Ansible. Quickstart: `ansible-playbook ec2_provision.yml && ansible-playbook deploy_webapp.yml`
 
-### 🔹 webserver-rhel-cloudformation
-AWS CloudFormation templates for a RHEL-based webserver stack (VPC, Subnet, EC2, Security Groups).
+### 🔹 [webserver-rhel-cloudformation](https://github.com/maviya03/webserver-rhel-cloudformation)  
+RHEL webserver stack with CloudFormation. Quickstart: `aws cloudformation validate-template --template-body file://webserver.yml`
 
-### 🔹 nfs_by_ansible
-NFS server/client provisioning & mount automation using Ansible roles.
+### 🔹 [nfs_by_ansible](https://github.com/maviya03/nfs_by_ansible)  
+NFS server + client provisioning via Ansible. Quickstart: `ansible-playbook nfs_setup.yml`
 
 ---
 
