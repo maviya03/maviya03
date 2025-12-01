@@ -56,13 +56,13 @@ These repos are intentionally simple, clean, and interview-friendly.
 ---
 
 ## Skills
-**Platforms:** Kubernetes, OpenShift  
-**IaC:** Terraform, CloudFormation  
-**Automation:** Ansible, Bash, Python  
-**CI/CD:** Jenkins, Git  
-**Observability:** Prometheus, Grafana, EFK  
+**Platforms:** Kubernetes • OpenShift  
+**IaC:** Terraform • CloudFormation  
+**Automation:** Ansible • Bash • Python   
+**CI/CD:** Jenkins • Git  
+**Observability:** Prometheus • Grafana • EFK  
 **Cloud:** AWS  
-**SRE:** SLIs/SLOs, MTTR reduction, incident management
+**SRE:** SLIs/SLOs • MTTR reduction • incident management
 
 ---
 
